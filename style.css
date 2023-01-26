@@ -86,7 +86,7 @@ nav ul li a:hover::after {
     margin-top: 20px;
 }
 
-.header-text h1 span {
+.header-text h1 span, span {
     color: goldenrod;
 }
 
