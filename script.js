@@ -19,6 +19,23 @@ console.log ("hello world from al.")
         portfolioNav.addEventListener("mouseover", navLinkSfx)
         contactNav.addEventListener("mouseover", navLinkSfx)
 
+// -------------------- About Me ----------------------
+    function seeMore() {
+        var dots = document.getElementById("dots-about-me")
+        var moreText = document.getElementById("see-more")
+        var btnText  = document.getElementById("see-more-btn")
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Continue Reading";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read Less";
+            moreText.style.display = "inline";
+        }
+    }
+
 //  -------------------- Tab Links --------------------
     var tablinks = document.getElementsByClassName("tab-links")
     var tabcontents = document.getElementsByClassName("tab-contents")

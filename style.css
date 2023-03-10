@@ -97,6 +97,26 @@ nav ul li a:hover::after {
     color: #ababab;
 }
 
+#see-more {
+    color: #ababab;
+    display: none;
+}
+
+#see-more-btn {
+    background-color: #080808;
+    border: 1px solid goldenrod;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+#see-more-btn:hover {
+    background-color: goldenrod;
+    color: #080808;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
